@@ -7,10 +7,22 @@
     <title>Document</title>
 </head>
 <body>
+
 <label for="">
-    Nome completo:
-    <input type="text">
-    <input type="text">
+    Fruta:
+    <input type="text" list="fruitsdata" placeholder="Escolha uma fruta">
 </label>
+<datalist id="fruitsdata">
+    <option>maça</option>
+    <option>banana</option>
+    <option>manga</option>
+    <option>laranja</option>
+    <option>cereja</option>
+</datalist>
+<datalist id="colordata">
+        <option>#990011</option>
+    <option>#009911</option>
+</datalist>
+<input type="color" list="colordata">
 </body>
 </html>
