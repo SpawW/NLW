@@ -1,0 +1,1 @@
+/* Arquivo para comentários */
